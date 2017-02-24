@@ -14,6 +14,7 @@
 		08E7FB151E569AF7008D57CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E7FB131E569AF7008D57CE /* LaunchScreen.storyboard */; };
 		08E7FB201E569AF8008D57CE /* StopWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E7FB1F1E569AF8008D57CE /* StopWatchTests.swift */; };
 		08E7FB2B1E569AF8008D57CE /* StopWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E7FB2A1E569AF8008D57CE /* StopWatchUITests.swift */; };
+		08E7FB3A1E569C0C008D57CE /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E7FB391E569C0C008D57CE /* Stopwatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		08E7FB261E569AF8008D57CE /* StopWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E7FB2A1E569AF8008D57CE /* StopWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchUITests.swift; sourceTree = "<group>"; };
 		08E7FB2C1E569AF8008D57CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08E7FB391E569C0C008D57CE /* Stopwatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,9 @@
 		08E7FB091E569AF7008D57CE /* StopWatch */ = {
 			isa = PBXGroup;
 			children = (
+				08E7FB3B1E569C37008D57CE /* Controller */,
+				08E7FB381E569BE9008D57CE /* Model */,
 				08E7FB0A1E569AF7008D57CE /* AppDelegate.swift */,
-				08E7FB0C1E569AF7008D57CE /* ViewController.swift */,
 				08E7FB0E1E569AF7008D57CE /* Main.storyboard */,
 				08E7FB111E569AF7008D57CE /* Assets.xcassets */,
 				08E7FB131E569AF7008D57CE /* LaunchScreen.storyboard */,
@@ -123,6 +126,22 @@
 				08E7FB2C1E569AF8008D57CE /* Info.plist */,
 			);
 			path = StopWatchUITests;
+			sourceTree = "<group>";
+		};
+		08E7FB381E569BE9008D57CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08E7FB391E569C0C008D57CE /* Stopwatch.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		08E7FB3B1E569C37008D57CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				08E7FB0C1E569AF7008D57CE /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08E7FB0D1E569AF7008D57CE /* ViewController.swift in Sources */,
+				08E7FB3A1E569C0C008D57CE /* Stopwatch.swift in Sources */,
 				08E7FB0B1E569AF7008D57CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
